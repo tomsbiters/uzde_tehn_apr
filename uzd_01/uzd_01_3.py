@@ -1,1 +1,11 @@
-# Izveidot programmu, kura prasa lietotâjam sekunþu skaitu. Sekundes tiek pârveidotas par “x hours y minutes z seconds” tipa tekstu. Rezultâts tiek parâdîts konsolç.
+# Izveidot programmu, kura prasa lietotï¿½jam sekunï¿½u skaitu.
+#  Sekundes tiek pï¿½rveidotas par ï¿½x hours y minutes z secondsï¿½ tipa tekstu. 
+# Rezultï¿½ts tiek parï¿½dï¿½ts konsolï¿½.
+
+
+# 120 sec....0 stundas 2 min 0sec
+
+
+sec=int(input("ievadi sekundes"))
+h=sec//(60*60)
+min=(sec-(h*))

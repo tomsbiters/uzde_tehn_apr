@@ -1,5 +1,20 @@
-# Kâda valsts nolçma pâriet uz jaunu naudas sistçmu. Vecajâ sistçmâ bija trîs naudas vienîbas: dâlderis, grasis, santîms. Naudas vçrtîbas norâdîtas zemâk.
-# 1 dâlderis = 37 graği
-# 1 grasis = 162 santîmi
-# Jaunajâ naudas sistçmâ paliek tikai santîmi un dâlderi. Santîms saglabâ savu vçrtîbu, bet 1 dâlderis bûs vienâds ar 100 santîmiem. Izveidot programmu, kas pârveidotu vecâs sistçmas naudu uz jaunu. Lietotâjam prasa ievadît vecâs sistçmas dâlderus, grağus un santîmus. Tiek aprçíinâts jaunâs sistçmas dâlderu un grağu daudzums. Rezultâts tiek parâdîts konsolç.
+# Kï¿½da valsts nolï¿½ma pï¿½riet uz jaunu naudas sistï¿½mu.
+#  Vecajï¿½ sistï¿½mï¿½ bija trï¿½s naudas vienï¿½bas: dï¿½lderis, grasis, santï¿½ms
+# . Naudas vï¿½rtï¿½bas norï¿½dï¿½tas zemï¿½k.
+# 1 dï¿½lderis = 37 graï¿½i
+# 1 grasis = 162 santï¿½mi
+# Jaunajï¿½ naudas sistï¿½mï¿½ paliek tikai santï¿½mi un dï¿½lderi. 
+# Santï¿½ms saglabï¿½ savu vï¿½rtï¿½bu, bet 1 dï¿½lderis bï¿½s vienï¿½ds ar 100 santï¿½miem.
+#  Izveidot programmu, kas pï¿½rveidotu vecï¿½s sistï¿½mas naudu uz jaunu.
+#  Lietotï¿½jam prasa ievadï¿½t vecï¿½s sistï¿½mas dï¿½lderus, graï¿½us un santï¿½mus.
+# Tiek aprï¿½ï¿½inï¿½ts jaunï¿½s sistï¿½mas dï¿½lderu un graï¿½u daudzums.
+#  Rezultï¿½ts tiek parï¿½dï¿½ts konsolï¿½.
 
+dald=int(input("dÄlderi:"))
+gras=int(input("graÅ¡i"))
+cents=int(input("santÄ«mi"))
+
+cents=cents+gras*162+dald*37*162
+dald2=cents//100
+cents2=cents-dald2*100
+print()

@@ -1,4 +1,15 @@
-# Izveidot programmu, kura prasa lietotâjam ievadît cilindra râdiusu un tâ augstumu, tiek aprçíinâts cilindra laukums un tilpums. Rezultâts tiek parâdîts konsolç.
-# tilpums = 3.14 * râdiuss * râdiuss * augstums
-# laukums = 2 * (3.14 * râdiuss * râdiuss) + augstums * (2 * 3.14 * râdiuss)
+# Izveidot programmu, kura prasa lietotï¿½jam ievadï¿½t cilindra rï¿½diusu un tï¿½ 
+# augstumu, tiek aprï¿½ï¿½inï¿½ts cilindra laukums un
+#  tilpums. Rezultï¿½ts tiek parï¿½dï¿½ts konsolï¿½.
+# tilpums = 3.14 * rï¿½diuss * rï¿½diuss * augstums
+# laukums = 2 * (3.14 * rï¿½diuss * rï¿½diuss) + augstums * (2 * 3.14 * rï¿½diuss)
+# PI=-3.14
 
+import math
+h=int(input("ievadi augstumu:"))
+r=int(input("ievadi rÄdiusu:"))
+
+tilpums=math.pi*r*r*h
+laukums=2*(math.pi*r*r)+h*(2*math.pi*r)
+print(f"tilpums ir{tilpums}.")
+print(f"tilpums ir{tilpums}.")
